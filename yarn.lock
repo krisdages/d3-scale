@@ -282,43 +282,43 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-"d3-array@2 - 3", "d3-array@2.10.0 - 3":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.0.4.tgz#60550bcc9818be9ace88d269ccd97038fc399b55"
-  integrity sha512-ShFl90cxNqDaSynDF/Bik/kTzISqePqU3qo2fv6kSJEvF7y7tDCDpcU6WiT01rPO6zngZnrvJ/0j4q6Qg+5EQg==
+"d3-array@npm:@krisdages/d3-array@<4":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-array/-/d3-array-3.1.7.tgz#4c75e31e7de31f99bb51cf3f8d60a660593da37d"
+  integrity sha512-fvPOulkPoHejqJq4T0s6iqi3t4sblRQY92XGb5oN8NO98N1iG2jn4Cab69YJed9xZNgcTRgYQfXPCgWTAZ259g==
   dependencies:
-    internmap "1 - 2"
+    internmap "npm:@krisdages/internmap@<3"
 
-"d3-color@1 - 3":
+"d3-color@npm:@krisdages/d3-color@<4":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-color/-/d3-color-3.1.0.tgz#334c0e94e04960024bcd122c16c2495bacc94d7f"
+  integrity sha512-HIrSOQPk9fxY+Hvbxm3qH9g0yS/DlTXIS/aWuw2hjSqSzjxJcnHpFXyqhAOXG+qHLGvXiG1ZJYRDynuD49xcDA==
+
+"d3-format@npm:@krisdages/d3-format@<4":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-format/-/d3-format-3.1.0.tgz#56ed34303af1198ec75d2f88f2185ab7e561cbe4"
+  integrity sha512-QI+iYvC1C9W9RHQt9oesQ9uZuWD4Q/WaI2I4TPjdFFiVmTRBn12PbzV8oySbqHtkU1dIdVOao3ToC9Tl5KQ5TA==
+
+"d3-interpolate@npm:@krisdages/d3-interpolate@<4":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-interpolate/-/d3-interpolate-3.0.2.tgz#b7fec2bbd8ce2fb5a73a79e26e1eb34682d69914"
+  integrity sha512-ogXweDwXzVoU5KNilaiNVBdoGgAcihbfn6c6H1hSDnQrVT05W0shGlBMJun7VvxK6fnr1q6mhpsAtXJ/4/PD9Q==
+  dependencies:
+    d3-color "npm:@krisdages/d3-color@<4"
+
+"d3-time-format@npm:@krisdages/d3-time-format@<5":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-time-format/-/d3-time-format-4.1.0.tgz#e32983779ddbf6752b29f13279b065bf318760eb"
+  integrity sha512-vZCw5BBS3V+JbdKL8ez7KJeN/2X5/2g3eN0W+j0egFmy5UIf4AU73BZ7V5XDgC602zZzozju3JYGTwkcXiR93Q==
+  dependencies:
+    d3-time "npm:@krisdages/d3-time@<4"
+
+"d3-time@npm:@krisdages/d3-time@<4":
   version "3.0.1"
-  resolved "https://registry.yarnpkg.com/d3-color/-/d3-color-3.0.1.tgz#03316e595955d1fcd39d9f3610ad41bb90194d0a"
-  integrity sha512-6/SlHkDOBLyQSJ1j1Ghs82OIUXpKWlR0hCsw0XrLSQhuUPuCSmLQ1QPH98vpnQxMUQM2/gfAkUEWsupVpd9JGw==
-
-"d3-format@1 - 3":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-3.0.1.tgz#e41b81b2ab79277141ec1404aa5d05001da64084"
-  integrity sha512-hdL7+HBIohpgfolhBxr1KX47VMD6+vVD/oEFrxk5yhmzV2prk99EkFKYpXuhVkFpTgHdJ6/4bYcjdLPPXV4tIA==
-
-"d3-interpolate@1.2.0 - 3":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/d3-interpolate/-/d3-interpolate-3.0.1.tgz#3c47aa5b32c5b3dfb56ef3fd4342078a632b400d"
-  integrity sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==
+  resolved "https://registry.yarnpkg.com/@krisdages/d3-time/-/d3-time-3.0.1.tgz#921fabd0530e82cfb2f42eff298b681fbd4e521a"
+  integrity sha512-ASRSlPBUlzKSn2j607UwG3UFL5KHh9K3a9+YP+nvRy8LQ+Qmjpllch3qAEemZdBxc2eR0SgLflzPzKpW3Psc+g==
   dependencies:
-    d3-color "1 - 3"
-
-"d3-time-format@2 - 4":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-4.0.0.tgz#930ded86a9de761702344760d8a25753467f28b7"
-  integrity sha512-nzaCwlj+ZVBIlFuVOT1RmU+6xb/7D5IcnhHzHQcBgS/aTa5K9fWZNN5LCXA27LgF5WxoSNJqKBbLcGMtM6Ca6A==
-  dependencies:
-    d3-time "1 - 3"
-
-"d3-time@1 - 3", "d3-time@2.1.1 - 3":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-3.0.0.tgz#65972cb98ae2d4954ef5c932e8704061335d4975"
-  integrity sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==
-  dependencies:
-    d3-array "2 - 3"
+    d3-array "npm:@krisdages/d3-array@<4"
 
 debug@4.3.1:
   version "4.3.1"
@@ -661,10 +661,10 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-"internmap@1 - 2":
+"internmap@npm:@krisdages/internmap@<3":
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/internmap/-/internmap-2.0.3.tgz#6685f23755e43c524e251d29cbc97248e3061009"
-  integrity sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==
+  resolved "https://registry.yarnpkg.com/@krisdages/internmap/-/internmap-2.0.3.tgz#dfcbdb89769c4acdf8cf0c709fba7adb42f0f741"
+  integrity sha512-LDolun99HZE5rSdCNxW1TBMn0S/POwI48B0HhqlKl/ebmDHP2ruJNT3rqd8z/rMo4K8Ps/sXw5THj/Bb0ReujA==
 
 is-binary-path@~2.1.0:
   version "2.1.0"
